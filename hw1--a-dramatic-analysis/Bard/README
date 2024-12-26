@@ -1,0 +1,35 @@
+
+//README
+
+
+Usuage: The program was created to perfrom a word frequency analysis on 
+  the works of William Shakespeare. For any word length (L) and a rank (R),
+  the program will return the R-th most frequent word of lenght (L). Words are
+  ranked first by frequency and lexicographically. 
+
+FILES:
+
+  bard.cpp:
+    The main file where input file is read, procceses the info from the input file,
+    and writes in the output file. It interacts with the linked list to do what is intended. Also stores
+    the words in an array. 
+  
+  linkedlist.h:
+    Header file defining the Node structure and the LinkList Class. Has the methods to
+    insert words, sort the list, and retrieve words based on rank.
+
+  linkedlist.cpp:
+    The implementation file for the LinkedList Class. It defines the methods in linkedlist.h.
+  
+  Makefile:
+    It is used to compile the program. Running "make" will generate the executable "bard".
+  
+
+  Resources:
+    For one week I spent time writing out the logic on my iPad and wrote out the psuedocode 
+    same way I did when I studied for test 1. 
+    I also used chat gpt to help with finding a process on how I would use the info from the 
+    input file and grab the intended info from my linked list. Also I needed help with the 
+    logic for sorting so my uncle that works for Visa, helped point me to the write direction 
+    until I was able to code it out on paper. For the Linked List structure I also used the 
+    example Linked List class that was provided to us in the codio.  
