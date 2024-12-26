@@ -1,0 +1,41 @@
+README
+
+Usuage:
+  This program was created to solve the "Six Degrees of Kevin Bacon" by
+  efficiently creating a graph data structure to represent actor-movie
+  relationships. The program processes a large dataset of movies and actors
+  to find the shortest path between two actors. The input specifies pairs of
+  actos to analyze, and the output file contains the shortest paths or "Not
+  present" if no path exists.
+
+Files:
+  Makefile: 
+    Used to compile the program. Running "make" will generate the 
+    executable. The generated executable is named "sixdegrees."
+
+  sixdegrees.cpp: 
+    This is the main file that reads the input file and processes commands 
+    for finding the shortest path between actors. It interacts with the BFS
+    functions to handle graph traversal and shortest path computations. The
+    output is written to the given output file.
+  
+  bfs.h:
+    Header file defining the functions for building the graph and performing
+    BFS to find the shortest path between functions. Includes data strucutures
+    and functions define.
+  
+  bfs.cpp:
+    The implementation file for the graph construction and BFS algorithm. It
+    defines the methods delcared in bfs.h. Builds the adjacency list from the 
+    dataset, finding the shortest path, and handling edge cases like no connections
+    or missing actors or same actors. 
+
+Resources:
+  I spent most of time learning in depth about graphs I watched multiple 
+  youtube videos and basics of codding graphs in cpp. I also went on stack 
+  overflow to look at basic code for a graph. From there I implemented my own
+  code and when it come to reading from the movie data set I used chat gpt 
+  to help me figure it out and help me with my code because that is where i 
+  got stuck for most of my coding. I did write it it all out first on my ipad
+  as I have done for all my coding assignments. 
+
