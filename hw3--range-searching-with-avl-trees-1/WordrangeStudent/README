@@ -1,0 +1,30 @@
+// README
+
+Usage: 
+  This program was created to create an efficient data structure using BST to 
+  perform text insertions and range queries. The input file will contain a large 
+  list of words to insert. Each range query will determine the number of words
+  inserted. Given a range. Tasks is to count within the given range. 
+
+Files:
+  Makefile: It is used to compile the program. Running "make" will generate the 
+  executable. Running "make" will generate the executable "wordrange."
+
+  wordrange.cpp: The main file that reads the input file, processes commands for 
+  inserting words and performing range queries, and writes the results to the
+  output file. It interacts with the BST class to handle the operations.
+
+  BST.h: Header file for defining the Node structure and the BST class. It
+  includes methods for inserting words, performing range queries, and cleaning
+  up the tree. Organizing words lexicographically.
+
+  BST.cpp: The implementation file for the BST class. It defines the methods
+  declared in BST.h, including word insertion, recursive range queries to count 
+  within bounds, and memory management to delete all nodes.
+
+Resources: 
+  For over a week I spent time getting the psuedocode down and the for the logic 
+  to make sense and how I was going to code the project. I was just aiming for 
+  half credit so it turned out to be much easier than I had expected. For this
+  assignment I had help from chat gpt to help me understand how to make the code
+  flow and from there I just coded it once I had it all written down.
